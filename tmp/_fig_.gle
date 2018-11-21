@@ -1,0 +1,17 @@
+size 8.0 6.0 
+set font psh hei 0.2 
+begin graph 
+	xtitle "x-axis" 
+	x2title "x2-axis" 
+	ytitle "y-axis" 
+	y2title "y2-axis" 
+	title "The title" 
+	data "/Users/tlienart/.julia/dev/GPlotExamples.jl/tmp//_fig__auxdat_1.csv" 
+	d1 line lstyle 2 lwidth 0.02 color rgba(0.0,0.0,0.545,1.0) 
+	data "/Users/tlienart/.julia/dev/GPlotExamples.jl/tmp//_fig__auxdat_2.csv" 
+	d2 color rgba(0.804,0.361,0.361,1.0) 
+	data "/Users/tlienart/.julia/dev/GPlotExamples.jl/tmp//_fig__auxdat_3.csv" 
+	d3 color rgba(0.047,0.533,0.761,1.0) marker fcircle msize 0.1 
+	data "/Users/tlienart/.julia/dev/GPlotExamples.jl/tmp//_fig__auxdat_4.csv" 
+	d4 line lwidth 0.1 color rgba(0.463,0.067,0.427,1.0) 
+end graph 
